@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 
-var filename = 'data/fileB.txt';
+var filename = 'data/sample_code_01.txt';
 
 d3.text(filename, function(error, text) {
     if (error) throw error;
@@ -10,7 +10,7 @@ d3.text(filename, function(error, text) {
 
     let line_padding = 1;
     let rect_w = 3;
-    let line_h = 2;
+    let line_h = 9;
     
     let lines = text.split('\n');
 
